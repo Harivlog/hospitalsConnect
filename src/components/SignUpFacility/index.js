@@ -1,0 +1,6 @@
+export {default as QuestionPage} from './QuestionPage/QuestionPage'
+export {default as SignUpHospital} from './SignUpHospital/SignUpHospital'
+export {default as SignUpLaboratory} from './SignUpLaboratory/SignUpLaboratory'
+export {default as SignUpPharmacies} from './SignUpPharmacies/SignUpPharmacies'
+export {default as SignUpRadiology} from './SignUpRadiology/SignUpRadiology'
+export {default as FacilityJoined} from './SignUpFacilityJoined/FacilityJoined'

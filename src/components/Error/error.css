@@ -1,0 +1,22 @@
+.app__error{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+}
+
+.app__error img{
+    width: 50%;
+    height: 550px;
+}
+@media screen and (max-width:1000px) {
+    .app__error img{
+        width: 80%;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .app__error img{
+        width: 100%;
+        height: 300px;
+    }
+}

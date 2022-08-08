@@ -1,0 +1,36 @@
+.App__resscue{
+    width: 100%;
+    padding: 2rem 3rem;
+}
+.App-resscue-hero-img{
+    width: 100%;
+}
+.App-resscue-hero-img img{
+    width: 100%;
+    height: 500px;
+}
+@media screen  and (max-width:600px){
+    .App-resscue-hero-img img{
+       height: 370px;
+    }
+    .App__resscue{
+        width: 100%;
+        padding: 2rem 2rem;
+    }
+}
+@media screen  and (min-width:1750px){
+    .App-resscue-hero-img img{
+       height: 600px;
+    }
+}
+@media screen  and (min-width:2050px){
+    .App-resscue-hero-img img{
+       height: 700px;
+    }
+}
+@media screen  and (max-width:500px){
+    .App__resscue{
+        width: 100%;
+        padding: 2rem 1.5rem;
+    }
+}

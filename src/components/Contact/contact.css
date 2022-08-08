@@ -1,0 +1,144 @@
+.App__contact-header{
+    background: url(../../assets/img/contact.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.App__contact-wrapp{
+    width: 100%;
+    padding: 3rem;
+}
+.contact-form h1{
+     text-align: center;
+}
+.App__contact-wrapp{
+}
+.contact-form-container{
+    margin: 3rem 0;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+}
+.form-heading{
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+}
+.form-content{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.contactForm-item{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm-item label{
+    color: var(--black-color);
+    margin-bottom: 0.4rem;
+}
+/* .contactForm-item input{
+    width: 100%;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+
+} */
+.contactForm-item textarea{
+    padding: 0.5rem;
+    resize: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.contactForm-item button{
+    width: 40%;
+    outline: none;
+    border: none;
+    background: var(--blue);
+    color: var(--white-color);
+    padding: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+/* border: 2px solid #FFFFFF; */
+}
+
+
+.contact-office{
+    padding: 1.3rem;
+}
+
+.machine-img{
+   width: 100%;
+   height: 400px;
+   margin-bottom: 1.5rem;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.contact-info img{
+    height: 30px;
+    width: 20px;
+    margin-right: 1rem;
+}
+.contact-info p{
+    color: black;
+    margin: 0;
+}
+.contact-input-form{
+    flex-direction: row;
+}
+@media screen and (max-width:500px) {
+    .contactForm-item button{
+        width: 100%;
+    }
+    .form-content{
+        padding: 1rem 0;
+    }
+    .App__contact-wrapp {
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .machine-img {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 1.5rem;
+    }
+    .contact-office {
+        padding: 1rem;
+    }
+    .contact-info p{
+        color: black;
+        margin: 0;
+        font-size: 0.7rem;
+    }
+    .contact-info img {
+        height: 20px;
+        width: 14px;
+        margin-right: 0.5rem;
+    }
+}
+@media screen and (max-width : 378px) {
+    .contact-info p{
+        color: black;
+        margin: 0;
+        font-size: 0.6rem;
+    }
+    .contact-info img {
+        height: 20px;
+        width: 12px;
+        margin-right: 0.3rem;
+    }
+}

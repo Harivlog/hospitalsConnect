@@ -1,0 +1,60 @@
+.App__blog{
+    width: 100%;
+}
+.App__blog-hero-img{
+    background: url(../../assets/img/blog.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+}
+.App__blog-container
+{
+    width: 100%;
+    margin-top: 4rem;
+    padding: 0 3rem;
+}
+.App__blog-hero-card-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+.App__blog-hero-card-img img{
+    width: 100%;
+    height: 250px;
+}
+.card__dis h3{
+    
+font-style: normal;
+font-weight: 500;
+font-size: 1.2rem;
+color: var(--black-color);
+/* line-height: 78px; */
+}
+.card__dis p{
+    font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--gray-secondary-color);
+}
+.App__blog-features-heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid  #000000;
+}
+.App__blog-features-heading a{
+    color: var(--blue);
+}
+.App__blog-content-wrap{
+    width: 100%;
+    margin-top: 3rem;
+}

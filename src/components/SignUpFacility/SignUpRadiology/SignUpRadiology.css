@@ -1,0 +1,49 @@
+
+.checkboxx{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 260px;
+    
+    /* margin-right: 4rem; */
+    /* background: #000; */
+}
+.checkboxx input[type = checkbox]{
+    accent-color: var( --gray-secondary-color );
+    padding: 0;
+}
+.checkboxx label{
+    margin-left: 0.5rem;
+}
+
+.checkBox-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+.checkboxx input{
+    padding: 0;
+    width: 20px;
+}
+.worning-hours-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.2rem;
+}
+.working-hours{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 4rem;
+
+}
+.working-hours input{
+    width: 20px;
+    margin: 0 0.3rem;
+}

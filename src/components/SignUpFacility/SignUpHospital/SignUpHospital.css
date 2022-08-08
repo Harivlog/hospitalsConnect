@@ -1,0 +1,69 @@
+.align-checkbox{
+    display: flex;
+    
+}
+
+.input-group-wrap{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.input-box{
+    margin: 1rem 2.7rem;
+}
+.input-box input{
+    width: 100%;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+}
+
+.beds-cont-input{
+    margin: 2rem 0;
+}
+
+.count-input-wrap{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0.5rem 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.input-cont-box{
+    margin-right: 1.5rem;
+}
+.input-cont-box input{
+    
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+    margin-right: 0.3rem;
+}
+
+.icu-count{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.wrapper{
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+@media screen and (max-width : 800px){
+    .radiology-align{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width :601px){
+    .align-hospital-input{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width:685px){
+.input-box {
+    width: 100%;
+}
+
+}

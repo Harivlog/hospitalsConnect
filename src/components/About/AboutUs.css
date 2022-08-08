@@ -1,0 +1,195 @@
+.App__about{
+    width: 100%;
+    padding: 0 3rem;
+    margin: 2rem 0;
+}
+
+.App__about-hero{
+    width: 100%;
+
+}
+.App__about-hero h1{
+    text-align: center;
+}
+.App__about-hero-img{
+    width: 100%;
+
+}
+.App__about-hero-img img{
+    width: 100%;
+    height: 450px;
+}
+.App__about-location{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+
+}
+.App__about-location img{
+    height: 30px;
+    width: 20px;
+}
+.App__about-location p{
+    margin-left: 0.5rem;
+}
+.App__about-hero-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.App__about-hero-btn a{
+    color: white;
+    padding: 0.2rem 1.7rem;
+    box-shadow: 0px 4px 4px #FFFFFF, 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+.App__about-hero-btn a:first-child{
+    background: var(--black-color);
+}
+.App__about-hero-btn a:last-child{
+    background: var(--red-color);
+
+}
+
+.App__about-content{
+    margin-top: 3rem;
+}
+
+.About-content-facility-services{
+    margin: 2rem;
+
+}
+.about-facility{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.about-facility-item{
+    margin:1rem 5rem;
+
+}
+.about-facility-item img{
+    width: 40px;
+    height: 40px;
+}
+.about-facility-item p{
+    margin-left: 0.3rem;
+}
+.about-facility-item span{
+    background-color: var(--gray-secondary-color);
+    padding:0.1rem 0.5rem;
+    margin-left: 0.2rem;
+}
+
+.about-services{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.about-services-item p{
+    margin: 1rem 2rem;
+}
+
+.About-content-timeing{
+
+font-style: normal;
+font-weight: 500;
+font-size: 1.1rem;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: var(--black-color);
+}
+
+.doctors-item{
+    flex-wrap: wrap;
+    gap: 3rem;
+    
+}
+
+.doctors-item-card {
+ 
+    width: 250px;
+
+}
+
+.doctors-item-card img{
+    height: 200px;
+   width: 100%;
+}
+.doctors-item-card h3{
+    font-size: 1.3rem;
+    color: var(--black-color);
+}
+.doctors-item-card p{
+    color: var(--black-color);
+}
+.About__content-register-wrap {
+    margin: 3rem 0;
+}
+.About__content-register-wrap button{
+    border: none;
+    outline: none;
+    background-color: var(--black-color);
+     padding: 1rem 3rem;
+     font-style: normal;
+font-weight: 500;
+font-size: 1.2rem;
+/* line-height: 49px; */
+}
+.About__content-register-wrap button a{
+    color: var(--white-color);
+}
+@media screen and (max-width : 1013px){
+    .about-facility-item{
+        margin:1rem 1.4rem;
+    
+    }
+}
+@media screen and (max-width : 1109px){
+    .about-facility-item{
+        margin:1rem 4rem;
+    
+    }
+}
+@media screen and (max-width :945px) {
+    .doctors-item-card {
+ 
+        width: 200px;
+    
+    }
+}
+@media screen and (max-width: 851px) {
+    .doctors-item a{
+        width: 100%;
+    }
+    
+    .doctors-item-card {
+        width: 100%;
+    } 
+     .doctors-item-card img{
+        height: 250px;
+       width: 100%;
+    }
+}
+        @media screen and (max-width: 500px) {
+            .App__about{
+                width: 100%;
+                padding: 0 1.5rem;
+                margin: 2rem 0;
+            }
+            .App__about-hero-img img{
+                width: 100%;
+                height: 370px;
+            }
+        }
+@media screen and (max-width :760px) {
+    .about-facility{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+}

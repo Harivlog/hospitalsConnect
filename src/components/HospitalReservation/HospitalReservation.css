@@ -1,0 +1,30 @@
+.App__reservation{
+    width: 100%;
+    padding:5rem 3rem;
+}
+
+.reservation__form{
+    width: 100%;
+}
+.reservation-form-item{
+    width: 100%;
+}
+.reservation-form-item input{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: var(--white-color);
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.34);
+outline: none;
+}
+.reservation-form-item button{
+    width: 100%;
+    padding: 1rem;
+    background: var(--blue);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--white-color);
+    margin-top: 2rem;
+}

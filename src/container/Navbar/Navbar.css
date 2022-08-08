@@ -1,0 +1,152 @@
+.app__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* height: 190px; */
+
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+
+    padding: 10px 20px;
+    position: relative;
+    background-color: var(--white-color);
+}
+
+.app__navbar-logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.app__navbar-items li a {
+    padding: 0 10px;
+    color: var(--black-color);
+}
+.nav-btn{
+    border: none;
+    outline: none;
+    padding: 6px 15px;
+    border-radius: 8px;
+    color: var(--white-color);
+
+    font-family: var(--font-base);
+font-style: normal;
+font-weight: 700;
+font-size: 0.8rem;
+line-height: 29px;
+cursor: pointer;
+
+}
+.nav-btn img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+ .emergency-btn{
+    background: var(--red-color);
+    margin-right: 10px;
+
+
+}
+.emergency-btn a{
+    color: var(--white-color);
+}
+.dropdown button{
+    background: var(--blue);
+
+}
+.dropdown{
+    position: relative;
+}
+.dropdownMini{
+    position: relative;
+
+}
+.dropdownMini button{
+    background: transparent;
+    color: var(--black-color);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0;
+}
+.dropdownMenuButton{
+    position: absolute;
+    z-index: 20;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    /* bottom: -100px; */
+}
+.dropdownMenuMini{
+    position: absolute;
+    z-index: 20;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    /* width: 100%; */
+    transition: all 0.3s ease-in-out;
+    right: 94px;
+    bottom: -188px;
+}
+.dropdownMenuButton li{
+    margin: 0.6rem 0;
+    padding: 0.6rem;
+}
+.dropdownMenuButton li:hover ,.dropdownMini button:hover{
+    background: var(--blue);
+    color: var(--white-color);
+ }
+.app__navbar-menu{
+    display: none;
+    
+    
+    
+}
+.app__navbar-menu-wrap{
+    /* background: var(--red-color); */
+    background: var(--white-color);
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 370px;
+    padding: 20px;
+}
+.app__navbar-menu_items{
+    flex-direction: column;
+}
+.app__navbar-menu_items li{
+
+    margin-top: 1rem;
+}
+.app__navbar-menu_items a{
+    color: var(--black-color);
+
+}
+.app__navbar-menu_butoons{
+     display: flex;
+     margin-top: 1.2rem;
+     
+}
+
+@media screen and (max-width:999px) {
+    
+    .app__navbar-items , .app__navbar-butoons{
+        display: none;
+    }
+    .app__navbar-menu{
+        display: flex;
+    }
+    .app__navbar{
+        border: none;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+}

@@ -1,0 +1,112 @@
+.App__doctor{
+    margin: 2rem 0;
+    padding: 0 3rem;
+}
+.App__doctor-hero h1{
+     text-align: center;
+     margin-bottom: 5rem;
+}
+
+.App__doctor-hero-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 5rem;
+}
+.App__doctor-hero-content-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+.App__doctor-hero-content-img {
+    width: 70%;
+}
+.App__doctor-hero-content-img img{
+    width: 100%;
+}
+.App__hero-content-heart{
+    background: rgba(5, 177, 243, 0.17);
+
+     padding: 0.8rem 1.7rem;
+    border-radius: 8px;
+}
+.App__hero-content-heart img{
+    width: 30px;
+    height: 30px;
+}
+.App__doctor-para p:last-child{
+    margin-top: 1rem;
+}
+
+.app__doctor-timing {
+    margin-top: 2rem;
+    color: rgba(4, 4, 4, 0.49);
+}
+
+.app__doctor-btn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+.app__doctor-btn button{
+    border: none;
+    outline: none;
+    padding: 0.8rem 2rem;
+    background-color: var(--black-color);
+}
+.app__doctor-btn a{
+    color: white;
+}
+
+@media screen  and (min-width:2000px){
+    .app__doctor-btn button{
+        border: none;
+        outline: none;
+        padding: 1.2rem 2.3rem;
+        background-color: var(--black-color);
+    }
+    .App__hero-content-heart img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width :470px) {
+    .app__doctor-btn{
+        width: 100%;
+    }
+    .app__doctor-btn button{
+        width: 100%;
+    }
+}
+@media screen and (max-width :700px) {
+    .App__doctor-hero-content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+
+        margin-bottom: 5rem;
+        gap: 1rem;
+    }
+    .App__doctor-hero-content-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .App__doctor-hero-content-img img {
+        width: 70%;
+    }
+    .App__doctor-hero-content-detail {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+}

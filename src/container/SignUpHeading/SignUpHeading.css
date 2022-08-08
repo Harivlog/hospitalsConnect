@@ -1,0 +1,70 @@
+.App__signUp-heading{
+    margin-bottom: 2rem;
+}
+.heading-content{
+    margin-bottom: 2.3rem;
+}
+.heading-content h1{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.heading-content h3{
+    text-align: center;
+
+}
+.heading-content h3 span{
+    display: block;
+}
+
+.heading-social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.heading-social-media li:first-child{
+    background-color: var(--blue-twitter-color);
+}
+.heading-social-media li:last-child{
+    background-color: var(  --red-color);
+}
+.heading-social-media li:nth-child(2){
+    background-color: var(  --blue-twitter-color);
+}
+
+.heading-social-media li{
+    padding: 0.4rem 1rem;
+}
+.heading-social-media a{
+    color: var(--white-color);
+}
+.heading-social-media svg{
+    font-size: 1.3rem;
+    margin-right: 0.2rem;
+}
+
+.App__signUp-form-lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.first-line ,.last-line{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 2px;
+    
+}
+.span-or{
+    margin: 0 2rem;
+}
+
+@media screen and (max-width:600px) {
+    .heading-social-media li{
+       width: 100%;
+       margin: 0.5rem 0;
+    }
+    
+}

@@ -1,0 +1,82 @@
+.App__varify-hero {
+    background: url(../../assets/img/varification.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 1rem 3rem;
+    align-items: flex-end;
+    color: var(--white-color);
+}
+
+.App__varification-form {
+    margin: 3rem 0;
+    
+}
+
+.varify-form {
+    flex-direction: column;
+    width: 80%;
+    background: #000;
+
+}
+.varified-form{
+    width: 80%;
+}
+.varify-form-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.varify-form-item input {
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.password::placeholder {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+
+
+    color: #000000;
+}
+
+.checkbox {
+    align-items: center;
+    flex-direction: row;
+}
+
+.checkbox input[type=checkbox] {
+    accent-color: var(--gray-secondary-color);
+}
+
+.checkbox label {
+    margin-left: 0.5rem;
+}
+
+.varify-form-item button {
+    padding: 1rem 2rem;
+    background-color: var(--blue);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--white-color);
+}
+
+.varify-form-item label {
+    color: var(--black-color);
+}
+@media screen and (max-width :400px) {
+    .varify-form-item label {
+        color: var(--black-color);
+        font-size: 0.7rem;
+    }
+}

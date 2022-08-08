@@ -1,0 +1,81 @@
+
+.App__signUp-hero{
+    background :url(../../assets/img/signUpHero.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    padding: 1rem 3rem ;
+    align-items: flex-end;
+    /* color: var(--white-color); */
+
+}
+.App__signUp-wrapper{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 3rem 0;
+    
+    /* padding: 3rem; */
+}
+.App__signup-wrap{
+    width: 70%;
+}
+
+.signup-checkbox{
+    font-style: normal;
+font-weight: 700;
+font-size: 1rem;
+}
+.signup-checkbox span{
+    color: var(--blue);
+}
+.varify-form--item{
+    margin: 1rem 0;
+}
+.varify-form--item label{
+    color: var(--black-color);
+    margin-bottom: 0rem;
+}
+.varify-form{
+    width: 100%;
+    display: flex;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+
+}
+.varify-form svg{
+    color: rgba(0, 0, 0, 0.2);
+}
+.varify-form input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.varify-otp-input label{
+    color: var(--black-color);
+}
+.varify-form-btn a{
+    color: var(--white-color);
+}
+.signup-align-input{
+    flex-direction: row;
+}
+@media screen and (max-width :500px) {
+    .signup-checkbox{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width : 312px) {
+    .signup-checkbox{
+        font-size: 0.6rem;
+    }
+}

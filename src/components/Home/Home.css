@@ -1,0 +1,348 @@
+
+.img-one{
+    background: url(../../assets/img/home.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+
+    padding: 3rem 2rem;
+
+    color: var(--black-color);
+
+}
+
+.img-two{
+    background: url(../../assets/img/about.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    
+    padding: 3rem 2rem;
+    
+    color: var(--white-color);
+}
+.img-three{
+    background: url(../../assets/img/about.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+
+    padding: 3rem 2rem;
+    align-items: center;
+    color: var(--white-color);
+
+}
+.carousel-item img{
+    height: 500px;
+}
+
+.Home__features {
+    margin: 4rem 0;
+    /* padding: 1.5rem; */
+}
+.Home__features h1{
+    text-align: center;
+}
+
+/* Home-Article */
+.Home-Article{
+    width: 100%;
+    padding: 2rem;
+}
+.card-img-home img{
+    height: 200px;
+    width: 100%;
+}
+.article-home-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+/* .article-card-box{
+    width: 40%;
+} */
+.card-content a{
+    padding-bottom: 0.3rem ;
+    text-decoration: underline;
+}
+.card-content h3{
+  color: var(--gray-primary-color);
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+}
+
+/* Home__booking-doctors */
+.Home__booking-doctors{
+    background: url(../../assets/img/black-women.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+
+    padding: 3rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+.Booking_appointement-form{
+    background-color: var(--white-color);
+    width: 100%;
+    padding: 2rem;
+} 
+.Booking_appointement-form h2{
+    text-align: center;
+    color: var(--blue);
+}
+.Booking_appointement-form h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.form--booking{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    width: 100%;
+
+}
+
+.form-booking-item{
+    background: rgba(88, 206, 252, 0.08);
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+}
+.form-booking-item select{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--gray-primary-color);
+    width: 100%;
+    
+}
+
+.form-booking-item img{
+    width: 15px;
+    height: 15px;
+}
+
+.form-booking-item input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--gray-primary-color);
+    margin-left: 0.3rem;
+}
+.form-booking-item input::placeholder{
+    color: var(--gray-primary-color);
+}
+.form-home-btn{
+    padding: 1rem;
+}
+.form-home-btn button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: var(--blue);
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+/* Home-top-doctors */
+.Home-top-doctors{
+    padding: 2rem;
+}
+
+.Home-top-doctors h1{
+  text-align: center;
+  color: var(--white-color);
+}
+.top-doctors-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.top-doc-card{
+    width: 400px;
+}
+.top-doc-card-img{
+    background: url(../../assets/img/drDaniel.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    position: relative;
+
+}
+.top-doc-card-img img{
+    width: 20px;
+    height: 20px;
+}
+.top-doc-para{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  
+    /* padding: 0.1rem 0.3rem; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-doc-para p{
+    background-color: var(--blue);
+    
+    color: var(--white-color);
+    font-size: 0.8rem;
+    padding: 0.3rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    /* line-height: 0; */
+}
+.top-doc-icons{
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.top-doc-icons button{
+    border: none;
+    outline: none;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    padding: 0.3rem;
+    margin:0.2rem;
+}
+.top-doc-card-content{
+    background: var(--white-color);
+    padding: 0.5rem;
+
+}
+.top-doc-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.top-doc-heading h3{
+    font-size: 1rem;
+    color: var(--blue);
+    font-weight: 600;
+}
+.rating{
+    background: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0.4rem;
+    border-radius: 7px;
+    color: var(--white-color);
+    font-size: 0.7rem;
+}
+.rating img{
+    height: 11px;
+    width: 11px;
+    margin-right: 0.2rem;
+}
+.top-doc-contact {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    /* justify-content: center; */
+}
+.top-doc-contact img{
+    height: 12px;
+    width: 12px;
+    margin: 0;
+    padding: 0;
+}
+.top-doc-contact p{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.2rem;
+    margin: 0;
+}
+
+
+@media screen  and (max-width : 975px){
+    .form--booking{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    
+    }
+    .form-booking-align input{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .top-doc-card{
+        width: 100%;
+    }
+    .top-doc-card-link{
+        width: 100%;
+    }
+    .Home-top-doctors {
+        padding: 2rem 0;
+    }
+    .Booking_appointement-form {
+        background-color: var(--white-color);
+        width: 100%;
+        padding: 1rem 0;
+    }
+   .Home__booking-doctors{
+    padding: 3rem 1.5rem;
+   }
+}
+@media screen and (max-width : 350px) {
+    .form-booking-item {
+        background: rgba(88, 206, 252, 0.08);
+        padding: 0.6rem;
+        margin: 0.8rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width :450px) {
+    .carousel-item img{
+        height: 300px;
+    }
+}
+@media screen and (max-width :410px) {
+    .form-home-btn button{
+        width: 100%;
+        border: none;
+        outline: none;
+        background: var(--blue);
+        color: var(--white-color);
+        font-weight: 600;
+        font-size: 0.8rem;
+        padding: 0.7rem;
+    }
+}
+@media screen and (max-width:999px) {
+    .App__sec{
+       margin-top: 6rem;
+    }
+}

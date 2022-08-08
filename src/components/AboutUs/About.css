@@ -1,0 +1,133 @@
+.App__AboutPage-header{
+    background: url(../../assets/img/about.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    padding: 3rem 2rem;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.About-mission{
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.About-mission h1{
+    background: linear-gradient(180deg, #50BBE6 0%, rgba(10, 10, 10, 0) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.About-mission p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.About-opinion{
+    background: url(../../assets/img/scientist.png);
+    height: 700px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.opinion-text{
+    width: 80%;
+}
+.opinion-text p{
+    font-size: 1.4rem;
+}
+.About-doctor{
+    width: 100%;
+    padding: 3rem;
+}
+.doctor-card{
+    width: 220px;
+
+}
+.About-doctor-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.doc-card-img{
+    width: 100%;
+}
+.doc-card-img img{
+    width: 100%;
+    height: 200px;   
+}
+.doc-card-content{
+    margin: 0.3rem 0;
+    width: 100%;
+}
+.doc-card-content p{
+    line-height: 17px;
+    margin-bottom: 0.3rem;
+}
+.doc-card-content a{
+    color: var(--blue);
+}
+
+.About-approch{
+    padding: 3rem;
+}
+.opproch-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin: 3rem 0;
+}
+.app__card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app__card-box img{
+    width: 100%;
+    height: 100px;
+}
+@media screen and (max-width:800px) {
+    .opinion-text{
+        width: 100%;
+    }
+}
+@media screen and (max-width:550px) {
+    .doctor-card {
+        width: 100%;
+    }
+    .doctor-card img{
+        height: 250px;
+    }
+}
+@media screen and (max-width:500px) {
+    .opinion-text p{
+        font-size: 1.1rem;
+    }
+    .app__card-box img {
+        width: 55%;
+        height: 50px;
+    }
+    .About-opinion{
+        padding: 1.5rem;
+    }
+    .About-mission {
+        flex-direction: column;
+        padding: 1.5rem;
+        margin: 2rem 0;
+    }
+}

@@ -1,0 +1,74 @@
+.q-form-page {
+    display: block;
+}
+
+
+.Select_staff{
+   
+}
+.Select_staff select{
+    width: 50%;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+}
+.q-form-page {
+    margin: 0.7rem 0;
+}
+
+.q-form-page input {
+    width: 100%;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+}
+
+.q-form-top{
+    display: flex;
+    justify-content: space-between;
+}
+.q-input-top{
+    width: 40%;
+    display: block;
+}
+.q-input-top input{
+    width: 100%;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+}
+
+.q-btn{
+    margin-top: 4rem;
+}
+.q-btn button{
+    width: 100%;
+    outline: none;
+    background: var(--black-color);
+    color: var(--blue);
+    padding: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+border: 2px solid #FFFFFF;
+
+}
+@media screen and (max-width:600px) {
+ .q-form-top{
+    display: block;
+}   
+.q-input-top{
+    
+    width: 100%;
+ }
+ .Select_staff select{
+    width: 80%;
+    font-size: 0.9rem;
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+}
+
+}

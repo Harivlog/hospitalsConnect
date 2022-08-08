@@ -1,0 +1,60 @@
+.Slider__body{
+    background: url(../../assets/img/leaf.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+    color: var(--white-color);
+    width: 100%;
+}
+.Slider-wrap{
+    width: 100%;
+   
+}
+.card-box{
+    background-color: var(--white-color);
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+}
+.card-imgg img{
+    width: 140px;
+    height: 140px  !important;
+}
+.card-content{
+    color: var(--black-color);
+}
+.card-content h4{
+   color: var( --gray-primary-color);
+}
+.card-star img{
+   width: 110px;
+   height: 40px !important;
+}
+
+@media screen and (max-width :800px){
+    .card-box{
+        flex-wrap: wrap;
+    }
+    .carousel .slide{
+        margin: 0;
+        padding: 0;
+
+    }
+}
+@media screen and (max-width :500px) {
+    .Slider__body{
+        padding: 3rem 0rem;
+    }
+    .card-box{
+        width: 80%;
+    }
+}

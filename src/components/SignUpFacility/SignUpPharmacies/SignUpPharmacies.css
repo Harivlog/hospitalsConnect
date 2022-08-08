@@ -1,0 +1,9 @@
+.location-pharma{
+    width: 50%;
+    margin: 2rem 0;
+}
+@media screen and (max-width:600px) {
+    .location-pharma{
+        width: 100%;
+    }
+}

@@ -1,0 +1,91 @@
+.App__expert{
+    width: 100%;
+}
+.App__expert-hero{
+    background :url(../../assets/img/expert.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+}
+
+.App__Expert-filter{
+    width: 100%;
+    padding: 3rem;
+}
+.App__filter-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.filter-wrap{
+    display: flex;
+    align-items: center;
+    background: rgba(250, 250, 250, 0.93);
+border-radius: 10px;
+width: 90%;
+padding: 0.7rem;
+}
+.filter-wrap input{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: transparent;
+    width: 100%;
+}
+.filter-wrap img{
+    width: 30px;
+    height: 30px;
+    /* display: flex; */
+}
+.filter-img button{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.filter-img img{
+    width: 60px;
+    height: 60px;
+}
+
+.App__filter-card{
+
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2.3rem 0;
+}
+.card-img{
+    width: 100%;
+}
+.App__filter-card img{
+    width: 100%;
+    height: 300px;
+}
+@media screen and (max-width : 700px) {
+    .filter-img img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media screen and (max-width : 500px) {
+    .filter-img img{
+        width: 30px;
+        height: 30px;
+    }
+    .filter-wrap img{
+        width: 25px;
+        height: 25px;
+        /* display: flex; */
+    }
+}

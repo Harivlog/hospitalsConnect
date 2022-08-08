@@ -1,0 +1,53 @@
+.App__signInForm-hero{
+    background :url(../../assets/img/signInHero.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    padding: 1rem 3rem ;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--white-color);
+}
+.App__signInForm-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.App__signInform-wrap{
+    width: 70%;
+    /* background: #000; */
+}
+.form-password{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.varify-form--item a , .link{
+     color: var(--blue);
+}
+
+.varify-form--item button{
+    padding: 1rem 2rem;
+    width: 30%;
+    background-color: var(--blue);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--white-color);
+}
+.signup-align-input{
+    flex-direction: row;
+}
+@media screen and (max-width:780px) {
+    .varify-form--item button{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,124 @@
+.App__booking-hero{
+    background: url(../../assets/img/blurhospital.png);
+    
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+}
+
+.App__booking-facilities{
+    margin: 3rem 3rem;
+}
+.App__booking-facility-title{
+    display: flex;
+    align-items: center;
+}
+.App__booking-facility-title img{
+    width: 25px;
+    height: 25px;
+}
+.App__booking-facility-title p{
+    font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 33px;
+margin-left: 0.5rem;
+}
+
+.booking-facility-card{
+    display: flex;
+    margin: 2rem 0;
+}
+.booking-facility-card-img img{
+    width: 200px;
+    height: 200px;
+}
+.booking-facility-card-content{
+    display: flex;
+    align-items: center;
+    padding: 0 1.3rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.booking-facility-card-content-heading{
+    width: 80%;
+    padding-right: 2rem;
+}
+
+.booking-facility-btn button{
+    border: none;
+    outline: none;
+    background-color: var(--black-color);
+    padding: 0.3rem 1.5rem;
+}
+.booking-facility-btn a{
+    color: white;
+}
+@media screen and (min-width:2000px){
+    .booking-facility-card-img img{
+        width: 300px;
+        height: 300px;
+    }
+    .App__booking-hero{
+        height: 700px;
+    }
+    .booking-facility-btn button{
+        padding: 0.9rem 2rem;
+    }
+}
+@media screen and (max-width:885px){
+    .booking-facility-card{
+        flex-direction: column;
+    }
+    .booking-facility-card-img img{
+        width: 100%;
+        height: 320px;
+    }
+    .booking-facility-card-content-heading {
+        width: 100%;
+        /* padding-right: 2rem; */
+    }
+    .booking-facility-card-content {
+        margin: 0.5rem 0;
+        padding: 0;
+    }
+    .booking-facility-btn button {
+        border: none;
+        outline: none;
+        background-color: var(--black-color);
+        padding: 0.3rem 3rem;
+    }
+    .App__booking-facility-title{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width : 500px) {
+    .booking-facility-btn button {
+        border: none;
+        outline: none;
+        background-color: var(--black-color);
+       
+        width: 100%;
+    }
+    .App__booking-hero{
+        background: url(../../assets/img/blurhospital.png);
+        
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        padding: 2rem;
+        align-items: center;
+    }
+    
+}

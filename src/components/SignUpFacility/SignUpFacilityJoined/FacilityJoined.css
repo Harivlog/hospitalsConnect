@@ -1,0 +1,146 @@
+.App__joined-count{
+    display: flex;
+    justify-content: space-around;
+    background: var(--blue);
+    color: var(--white-color);
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+}
+
+.joined-count-wrap h3{
+    text-align: center;
+}
+
+
+
+
+.joined-experience{
+    padding: 1.3rem;
+}
+.joined-experience h2{
+    text-align: center;
+}
+
+.joined-experience-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.experience-img{
+    height: 160px;
+    width: 160px;
+    /* background: #000; */
+}
+.experience-img img{
+    width: 100%;
+}
+.experience-box p{
+    text-align: center;
+}
+
+.wait-time-wrapper{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 1.3rem;
+}
+.wait-time-wrapper p{
+    width: 70%;
+}
+
+.btn-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.joined-booking-wrapper{
+    padding: 1.3rem;
+}
+.joined-booking-wrapper p{
+    width: 70%;
+}
+.booking-btn{
+    justify-content: flex-start;
+}
+
+.joined-detail{
+    padding: 3rem 1rem;
+    color: var(--white-color);
+
+}
+.joined-detail p{
+    width: 70%;
+    font-size: 1.4rem;
+}
+
+.joined-form-wrapper{
+    background: var(--blue);
+    padding: 3rem 1.3rem;
+}
+.joined-form-wrapper h1{
+    color: var(--white-color);
+}
+
+.form-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-item-box{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    padding:0 2rem;
+    gap: 1rem;
+}
+.form-item-box input{
+    padding: 0.3rem 1rem;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.form-item-btn {
+    padding:0 2rem;
+
+}
+.form-item-btn button{
+    background: var(--black-color);
+    padding: 0.4rem 3rem;
+    color: var(--blue);
+    font-weight: 600;
+    cursor: pointer;
+}
+@media screen and (max-width :600px){
+    .joined-detail p{
+        width: 80%;
+        font-size: 1.1rem;
+    }
+    .joined-booking-wrapper p{
+        width: 80%;
+    }
+    .wait-time-wrapper p{
+        width: 80%;
+    }
+    .joined-count-wrap{
+        padding: 0 6rem;
+    }
+}
+@media screen and (max-width :500px){
+    .form-item{
+        display: flex;
+        width: 100%;
+         flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .joined-count-wrap{
+        padding: 0 3rem;
+    }
+}
