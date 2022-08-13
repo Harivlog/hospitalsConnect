@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './App.css'
 import Error from './components/Error/Error'
 
@@ -11,7 +11,6 @@ import ExpertResult from './Views/ExpertResult'
 
 import About from './Views/About'
 import EvercareHospital from './Views/AboutUs'
-
 
 import Blogs from './Views/Blogs'
 import Layout from './components/Layout/Layout'
@@ -29,9 +28,8 @@ import RadiologuySignUp from './Views/RadiologuySignUp'
 import LaboratorySignUp from './Views/LaboratorySignUp'
 import PharmaciesSignUp from './Views/PharmaciesSignUp'
 import HospitalSignUp from './Views/HospitalSignUp'
-import { Footer } from './container'
 
-const App = () => {
+  
   return (
     <>
       <div className='app'>
