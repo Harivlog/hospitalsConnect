@@ -29,6 +29,10 @@ import LaboratorySignUp from './Views/LaboratorySignUp'
 import PharmaciesSignUp from './Views/PharmaciesSignUp'
 import HospitalSignUp from './Views/HospitalSignUp'
 
+import axios from 'axios';
+
+const App = () => {
+
   
   return (
     <>
