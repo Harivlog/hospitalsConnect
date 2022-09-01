@@ -1,0 +1,70 @@
+.App__home-slider{
+    margin: 3rem 0;
+}
+.slider-home-heading{
+    padding: 0 3rem ;
+}
+.slider-home-heading p{
+    max-width: 40%;
+}
+.slider-detail-box{
+    padding: 0.6rem 0.3rem;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-detail-box h4{
+    color: black;
+    font-size: 13px;
+}
+.reviews-slider{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.reviews-slider img{
+    width: 70px;
+    height: 18px;
+}
+.reviews-slider p{
+    margin: 0;
+    margin-left: 0.3rem;
+    padding: 0;
+}
+.slider-location p{
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+.slider-location a{
+    font-size: 11px;
+    color: #000000;
+    text-decoration:underline;
+    font-weight: 500;
+}
+.slider-location a span{
+    padding-bottom: 0.2rem;
+
+}
+.splide__pagination__page.is-active{
+    background: #05B1F3 !important;
+}
+
+
+@media screen and (max-width:900px) {
+    .slider-home-heading p{
+        max-width: 60%;
+    }
+}
+@media screen and (max-width:620px) {
+    .slider-home-heading p{
+        max-width: 80%;
+    }
+}
+@media screen and (max-width:400px) {
+    .slider-home-heading p{
+        max-width: 100%;
+    }
+}

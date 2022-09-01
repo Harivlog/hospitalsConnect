@@ -1,0 +1,386 @@
+.Apponitment__bking{
+    background: #E6EFF9;
+    padding: 5rem 3rem;
+}
+.Appoint__bking__heading h2{
+    text-align: center;
+}
+.Appointment__schduling {
+   margin: 2rem 0; 
+}
+.Appointment__schduling h4{
+    color: #8C8FA5;
+    font-weight: 600;
+}
+.Appointment__schduling_time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+}
+.Appointment__schduling_time button{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    color: #8C8FA5;
+    font-weight: 500;
+}
+.Appointment__schduling_time button:hover{
+    background: #05B1F3;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+.Appointment__schduling_time button img{
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    padding: 0.2rem;
+}
+.Appointment__schduling_time button span{
+    width: 100%;
+}
+.booking_time-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+}
+.booking_time{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.booking_time-item{
+    background: #ffff;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    color: #8C8FA5;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.booking_time-item:hover{
+    background: #05B1F3;
+ 
+    color: #fff;
+}
+
+.fee_info-wrap h4{
+    color: #8C8FA5;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 3rem;
+    margin: 2rem 0 2rem 3rem;
+}
+.fee-info-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    margin: 1rem 0;
+    padding: 0.4rem 0.9rem;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+}
+.fee-info-item:hover{
+    background: #05B1F3;
+    color: #fff;
+}
+.fee-info-item:hover p{
+    background: #05B1F3;
+    color: #fff;
+}
+.fee__info-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fee__info-left p{
+    margin: 0;
+    padding: 0;
+    color: #8C8FA5;
+    transition: all 0.3s ease-in-out;
+}
+.fee__info-left-img{
+    width: 40px;
+    height: 40px;
+    background: #EFEFEF;
+border-radius: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 0.5rem;
+
+}
+.fee__info-left-img img{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+.fee-info-detail h5{
+    margin-bottom: 0rem;
+    font-weight: 600;
+}
+.fee__info-right{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.fee__info-right p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #05B1F3;
+    transition: all 0.3s ease-in-out;
+}
+.fee_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.fee_btn button{
+    border: none;
+    outline: none;
+    background: #05B1F3;
+    border-radius: 7px;
+    color: white;
+    padding: 0.6rem 1rem;
+    width: 50%;
+}
+@media screen and (min-width:2000px) {
+    .Appointment__schduling h4{
+        color: #8C8FA5;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .Appoint__bking__heading h2{
+        text-align: center;
+        font-size: 2.4rem;
+
+    }
+    .Appointment__schduling {
+        margin: 3rem 0; 
+     }
+     .Appointment__schduling_time button{
+        width: 22%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.9rem 1rem;
+        border: none;
+        outline: none;
+        background: #FFFFFF;
+        color: #8C8FA5;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    .Appointment__schduling_time button img{
+        width: 30px;
+        height: 30px;
+        background: #ffffff;
+        padding: 0.2rem;
+    }
+    .booking_time-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0;
+        padding: 1rem 2rem;
+    }
+    .booking_time-item{
+        background: #ffff;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 2rem;
+        color: #8C8FA5;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .booking_time-item:hover{
+        background: #05B1F3;
+     
+        color: #fff;
+    }
+    .booking_time{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 70%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .fee_btn button{
+        border: none;
+        outline: none;
+        background: #05B1F3;
+        border-radius: 7px;
+        color: white;
+        padding: 1rem 1rem;
+        width: 50%;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:870px) {
+    .booking_time{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 70%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .Appointment__schduling_time{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 0;
+    }
+}
+@media screen and (max-width:870px) {
+    .booking_time{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .Appointment__schduling_time button{
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        border: none;
+        outline: none;
+        background: #FFFFFF;
+        color: #8C8FA5;
+        font-weight: 500;
+    }
+    .Appointment__schduling_time button:hover{
+        background: #05B1F3;
+        color: #FFFFFF;
+        transition: all 0.3s ease-in-out;
+    }
+    .Appointment__schduling_time button img{
+        width: 25px;
+        height: 25px;
+        background: #ffffff;
+        padding: 0.2rem;
+    }
+    .Appointment__schduling_time button span{
+        width: 100%;
+    }
+}
+@media screen and (max-width:605px) {
+    .booking_time{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+  .booking_time-wrap{
+        padding: 1rem 0;
+  }
+}
+@media screen and (max-width:500px) {
+    .Apponitment__bking{
+        background: #E6EFF9;
+        padding: 5rem 1.5rem;
+    }
+    .booking_time-item span{
+        font-size: 14px;
+    }
+    .Appointment__schduling_time button{
+        width: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        border: none;
+        outline: none;
+        background: #FFFFFF;
+        color: #8C8FA5;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .fee-info-detail h5 {
+        margin-bottom: 0rem;
+        font-weight: 600;
+        font-size: 17px;
+    }
+    .fee__info-left p {
+        margin: 0;
+        padding: 0;
+        color: #8C8FA5;
+        transition: all 0.3s ease-in-out;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:407px) {
+    .Apponitment__bking{
+        background: #E6EFF9;
+        padding: 5rem 1.3rem;
+    }
+    .booking_time-item span{
+        font-size: 10px;
+    }
+    .Appointment__schduling_time button{
+        width: 45%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.3rem 0.7rem;
+        border: none;
+        outline: none;
+        background: #FFFFFF;
+        color: #8C8FA5;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .fee-info-detail h5 {
+        margin-bottom: 0rem;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .fee__info-left p {
+        margin: 0;
+        padding: 0;
+        color: #8C8FA5;
+        transition: all 0.3s ease-in-out;
+        font-size: 10px;
+    }
+    .booking_time-item{
+        padding: 0.2rem 0.4rem;
+    }
+    .booking_time{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    .fee__info-right p{
+        font-size: 13px;
+    }
+}

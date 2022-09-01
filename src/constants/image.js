@@ -38,8 +38,14 @@ import star from '../assets/img/star.png'
 import leftArrow from '../assets/img/leftArrow.png'
 import rightArrow from '../assets/img/rightArrow.png'
 import vectorMan from '../assets/img/VectorMan.png'
+import hotDeal from '../assets/img/hotDeal.png'
+import deal from '../assets/img/deal.png'
+import hero from '../assets/img/homeBanner.png'
+import music from '../assets/img/music.png'
+import offerDetail from '../assets/img/offerDetails.png'
 
 export default {
+
     aboutimg,
     article,
     blog1,
@@ -47,6 +53,8 @@ export default {
     blog3,
     blog4,
     blog5,
+    deal,
+    hotDeal,
     doctor1,
     doctor2,
     drDaniel,
@@ -54,6 +62,7 @@ export default {
     fac2,
     facilityhero,
     featurefacility,
+    hero,
     heroimg,
     smith,
     bas,
@@ -68,14 +77,16 @@ export default {
     filter,
     ExpertResult,
     varification,
+    music,
     machine,
     chorome,
     phone,
     letter,
     transparency,
     men,
-    trust,
+    offerDetail,
     onestar,
+    trust,
     star,
     leftArrow,
     rightArrow,

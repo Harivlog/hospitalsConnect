@@ -31,72 +31,44 @@ export const HomeArticleData = [
 
 export const TopDoctors = [
     {
-        img : './assets/img/drDaniel.jpg',
-        heart : './assets/img/heart.png',
-        buy : './assets/img/buy.png',
-        at : './assets/img/at.png',
-        phone : './assets/icons/phone.png',
-        location : './assets/icons/location.png',
+        img : './assets/img/offerCardBanner.png',
+        title : 'Cancer Care',
+        heart : './assets/img/whiteHeart.png',
+        eyes : './assets/img/eye.png',
+        available : 'Sale',
+        buy : './assets/img/buyIcon.png',
         star : './assets/img/onestar.png',
-        available : 'Available Now',
-        title : 'Dr. Danielle A MD',
-        address : '101 East Parkview Road, New York',
-        number : '234 8153251433',
-        email : 'Dr. Danielle A MD@Gmail.com',
-        btn : 'More',
-        rating : '4.7'
-
+        rating : '4.9',
+        sndTitle : 'Emergency Case',
+        dec : "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+        download : './assets/img/download.png',
+        sale : '15 Sales',
+    
+        dollar : '$16.48',
+        dollarsnd : '$6.48',
+        learn : 'learn More',
+        arrow : './assets/img/arrow.png'
     },
     {
-        img : './assets/img/drDaniel.jpg',
-        heart : './assets/img/heart.png',
-        buy : './assets/img/buy.png',
-        at : './assets/img/at.png',
-        phone : './assets/icons/phone.png',
-        location : './assets/icons/location.png',
+        img : './assets/img/offerCardBanner.png',
+        title : 'Cancer Care',
+        heart : './assets/img/whiteHeart.png',
+        eyes : './assets/img/eye.png',
+        available : 'Sale',
+        buy : './assets/img/buyIcon.png',
         star : './assets/img/onestar.png',
-        available : 'Available Now',
-        title : 'Dr. Danielle A MD',
-        address : '101 East Parkview Road, New York',
-        number : '234 8153251433',
-        email : 'Dr. Danielle A MD@Gmail.com',
-        btn : 'More',
-        rating : '4.7'
-
-    },
-    {
-        img : './assets/img/drDaniel.jpg',
-        heart : './assets/img/heart.png',
-        buy : './assets/img/buy.png',
-        at : './assets/img/at.png',
-        phone : './assets/icons/phone.png',
-        location : './assets/icons/location.png',
-        star : './assets/img/onestar.png',
-        available : 'Available Now',
-        title : 'Dr. Danielle A MD',
-        address : '101 East Parkview Road, New York',
-        number : '234 8153251433',
-        email : 'Dr. Danielle A MD@Gmail.com',
-        btn : 'More',
-        rating : '4.7'
-
-    },
-    {
-        img : './assets/img/drDaniel.jpg',
-        heart : './assets/img/heart.png',
-        buy : './assets/img/buy.png',
-        at : './assets/img/at.png',
-        phone : './assets/icons/phone.png',
-        location : './assets/icons/location.png',
-        star : './assets/img/onestar.png',
-        available : 'Available Now',
-        title : 'Dr. Danielle A MD',
-        address : '101 East Parkview Road, New York',
-        number : '234 8153251433',
-        email : 'Dr. Danielle A MD@Gmail.com',
-        btn : 'More',
-        rating : '4.7'
+        rating : '4.9',
+        sndTitle : 'Emergency Case',
+        dec : "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+        download : './assets/img/download.png',
+        sale : '15 Sales',
+     
+        dollar : '$16.48',
+        dollarsnd : '$6.48',
+        learn : 'learn More',
+        arrow : './assets/img/arrow.png'
 
     }
+  
 
 ]

@@ -18,4 +18,7 @@ export {default as Contact} from './Contact/Contact'
 export {default as Home} from './Home/Home'
 export {default as RefralForm} from './RefralForm/RefralForm'
 export {default as HospitalReservation} from './HospitalReservation/HospitalReservation'
+export {default as AppointmentBooking} from './AppointmentB/AppointmentBooking'
+export {default as DealsOffers} from './DealsOffer/DealsOffers'
+export {default as OfferDetails} from './offerDetails/OfferDetails'
 

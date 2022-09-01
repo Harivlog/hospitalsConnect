@@ -41,7 +41,7 @@ const DoctorProfileComponent = () => {
         </div>
         <div className="app__doctor-btn">
           <button><Link className="text" to="research">Research works</Link></button>
-          <button><Link className="text" to="hospitalReservation">Book Appointement</Link></button>
+          <button><Link className="text" to="AppiontmentBooking">Book Appointement</Link></button>
 
         </div>
       </section>

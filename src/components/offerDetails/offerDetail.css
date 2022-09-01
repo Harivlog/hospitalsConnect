@@ -1,0 +1,231 @@
+.App__offerDetail{
+    margin: 4rem 0;
+    padding: 0 3rem;
+}
+.App__offerDetail h1{
+   text-align: center;
+   font-weight: 700;
+   font-size: 26px;
+}
+.offer-form-wrap{
+    padding: 2rem 10rem;
+}
+.offerDtl-img{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oofer-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background: linear-gradient(180deg, #000000 28.03%, rgba(0, 0, 0, 0.00520833) 99.99%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 8px;
+
+}
+.offerDtl-img img{
+    opacity: 0.6;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.offerform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.offer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-title h3{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 0.6rem;
+}
+.offer-title img{
+    width: 25px;
+    height: 25px;
+}
+.block{
+    visibility: hidden;
+}
+.offer_input h3{
+  text-align: center;
+}
+.offer_heading-title{
+    width: 40%;
+    padding-left: 120px;
+}
+.offer_heading-title:first-child{
+    padding-left: 220px;
+    width: 60%;
+
+}
+.offerform-heading{
+    display: flex;
+    justify-content: space-around;
+}
+.offer_input{
+    width: 37%;
+}
+.offer_input input{
+     width: 100%;
+     padding: 0.5rem 0.9rem;
+     border-radius: 7px;
+     border: 1px solid gray;
+     outline: none;
+}
+.offerDetail__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 10rem;
+
+}
+.offerDetail__btn button{
+    background: #000F14;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media screen and (max-width:1220px) {
+    .offer-form-wrap{
+        padding: 2rem 8rem;
+    }
+    .offerDetail__btn{
+     
+        padding: 0rem 8rem;
+    
+    }
+}
+@media screen and (max-width:1152px) {
+    .offer-form-wrap{
+        padding: 2rem 6rem;
+    }
+    .offerDetail__btn{
+     
+        padding: 0rem 6rem;
+    
+    }
+}
+@media screen and (max-width:1080px) {
+    .offer-form-wrap{
+        padding: 2rem 4rem;
+    }
+    .offerDetail__btn{
+     
+        padding: 0rem 4rem;
+    
+    }
+    .oofer-img-wrapper{
+
+        width: 75%;
+       
+    
+    }
+}
+@media screen and (max-width:910px) {
+    .offer_heading-title{
+        width: 40%;
+        padding-left: 70px;
+    }
+    .offer_heading-title:first-child{
+        padding-left: 150px;
+        width: 60%;
+    
+    }
+}
+@media screen and (max-width:770px) {
+    .offer-form-wrap{
+        padding: 2rem 0rem;
+    }
+    .offerDetail__btn{
+     
+        padding: 0rem 0rem;
+    
+    }
+    .oofer-img-wrapper{
+
+        width: 85%;
+       
+    
+    }
+}
+@media screen and (max-width:625px) {
+    .offer_input{
+        width: 30%;
+    }
+    .oofer-img-wrapper{
+
+        width: 100%;
+       
+    
+    }
+   
+}
+@media screen and (max-width:640px) {
+    .offerform-heading h3{
+        font-size: 17px;
+    }
+    .offer_heading-title{
+        width: 40%;
+        padding-left: 70px;
+    }
+    .offer_heading-title:first-child{
+        padding-left: 160px;
+        width: 60%;
+    
+    }
+}
+@media screen and (max-width:500px) {
+    .App__offerDetail{
+        margin: 4rem 0;
+        padding: 0 1.3rem;
+    }
+    .offer-title h3{
+        margin: 0;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 0.4rem;
+    }
+    .offer-title img{
+        width: 18px;
+        height: 18px;
+    }
+    .offerform-heading h3{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:430px) {
+    .offerDetail__btn{
+        flex-direction:column;
+        gap: 1.3rem;
+    }
+    .offerDetail__btn button{
+        width: 100%;
+        background: #000F14;
+        color: white;
+        padding: 0.6rem 1.4rem;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width:390px) {
+    .offer_input{
+        width: 25%;
+    }
+    .offer_input input {
+        padding: 0.3rem 0.5rem;
+    }
+    .offerform-heading h3{
+        font-size: 10px;
+    }
+}

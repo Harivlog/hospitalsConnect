@@ -23,3 +23,19 @@ export const HomeData = [{
     title : 'More',
     img : './assets/icons/close.png'
 },]
+
+export const heroData = [
+    {
+        title : 'ICU',
+        
+        img : './assets/icons/close.png'
+    },
+    {
+        title : 'MRI',
+        img : './assets/icons/close.png'
+    },
+    {
+        title : 'Surgery',
+        img : './assets/icons/close.png'
+    },
+]

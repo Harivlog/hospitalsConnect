@@ -29,7 +29,10 @@ import LaboratorySignUp from './Views/LaboratorySignUp'
 import PharmaciesSignUp from './Views/PharmaciesSignUp'
 import HospitalSignUp from './Views/HospitalSignUp'
 
-import axios from 'axios';
+
+import OfferDetails from './Views/offerDeails'
+import AppointmentBooking from './Views/AppiointBooking'
+import DealsOffer from './Views/dealsOffer'
 
 const App = () => {
 
@@ -44,13 +47,23 @@ const App = () => {
 
             <Route path='/' >
 
-              <Route index element={<Home />} />
+              <Route  path='/'>
+                  <Route index element={<Home />}/>
+                  <Route path="deals-offer"  >
+                <Route index element={<DealsOffer />} />
+                <Route path="offerDetails" element={<OfferDetails />} />
+
+              </Route>
+              </Route>
               <Route path="doctorProfile"  >
                 <Route index element={<DoctorProfile />} />
                 <Route path="hospitalReservation" element={<HospitalReservation />} />
                 <Route path="research" element={<Research />} />
-
+                <Route path="AppiontmentBooking" element={<AppointmentBooking />} />
+                
               </Route>
+            
+
             </Route>
 
 
@@ -67,7 +80,7 @@ const App = () => {
                   <Route index element={<DoctorProfile />} />
                   <Route path="hospitalReservation" element={<HospitalReservation />} />
                   <Route path="research" element={<Research />} />
-
+                  <Route path="AppiontmentBooking" element={<AppointmentBooking />} />
                 </Route>
 
               </Route>
@@ -81,7 +94,7 @@ const App = () => {
                   <Route index element={<DoctorProfile />} />
                   <Route path="hospitalReservation" element={<HospitalReservation />} />
                   <Route path="research" element={<Research />} />
-
+                  <Route path="AppiontmentBooking" element={<AppointmentBooking />} />
                 </Route>
                 <Route path="hospitalReservation" element={<HospitalReservation />} />
 
@@ -122,7 +135,9 @@ const App = () => {
           </Route>
 
         </Routes>
-
+           {/* <DealsOffers/> */}
+           {/* <OfferDetails/> */}
+           {/* <AppointmentBooking/> */}
         {/* <Footer /> */}
 
       </div>

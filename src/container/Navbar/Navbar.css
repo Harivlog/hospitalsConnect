@@ -132,7 +132,7 @@ cursor: pointer;
      
 }
 
-@media screen and (max-width:999px) {
+@media screen and (max-width:1099px) {
     
     .app__navbar-items , .app__navbar-butoons{
         display: none;

@@ -12,9 +12,14 @@ export const MENU = [
       path: "experts",
     },
     {
+      title: "Discounted Deals",
+      path: "deals-offer",
+    },
+    {
       title: "About Us",
       path: "about",
     },
+
     {
       title: "Blog",
       path: "blog",

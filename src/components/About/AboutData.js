@@ -102,3 +102,28 @@ export const Doctors = [
         img : '../assets/img/blog1.jpg'
     },
 ]
+export const AccordionData = [
+    {
+        id : 1,
+        title : 'Facility Features',
+        content : ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae placeat qui quisquam praesentium hic, eaque molestiae labore sapiente ipsum. Sit?',
+    },
+    {
+        id : 2,
+        title : 'Services',
+        content : ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae placeat qui quisquam praesentium hic, eaque molestiae labore sapiente ipsum. Sit?',
+
+    },
+    {
+        id : 3,
+        title : 'Pricing',
+        content : ' ipsum dolor sit amet consectetur adipisicing elit. Repudiandae placeat qui quisquam praesentium hic, eaque molestiae labore sapiente ipsum. Sit?',
+
+    },
+    {
+        id : 4,
+        title : 'Offers',
+        content : 'ipsum dolor sit amet consectetur adipisicing elit. Repudiandae placeat qui quisquam praesentium hic, eaque molestiae labore sapiente ipsum. Sit?',
+
+    },
+]

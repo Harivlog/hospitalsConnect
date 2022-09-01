@@ -1,0 +1,246 @@
+.app__offer-deal-heading{
+    margin: 5rem 0;
+    position: relative;
+}
+.message-offer{
+    position: absolute;
+    top: 90px;
+    left: -50px;
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #05B1F3;
+    padding: 1.3rem;
+    border-radius: 35px 35px 0px 0px;
+}
+.message-offer img{
+    width: 30px;
+    height: 30px;
+}
+.message-offer p{
+    margin: 0;
+}
+.app__offer-deal-heading h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+.offer-deal-search{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 0 10rem;
+}
+.off-deal-srh-box{
+    width: 40%;
+    gap: 2rem;
+    margin: 1rem;
+}
+.off-deal-srh-box label{
+    color: rgb(173, 173, 173);
+    margin-bottom: 0.3rem;
+}
+.input-offer-wrap{
+    background: rgba(250, 250, 250, 0.93);
+border-radius: 8px;
+padding: 0.4rem 1rem;
+width: 100%;
+}
+.input-offer-wrap input{
+    border: none;
+    outline: none;
+    background: rgba(250, 250, 250, 0.93);
+    border-radius: 8px;
+    padding: 0.2rem 0.5rem;
+    width: 70%;
+}
+.App_cards_offers{
+    padding: 4rem 3rem;
+    margin-bottom: 3rem;
+}
+.App_cards_offers{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(4,1fr);
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 1rem 10rem;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 8px;
+   
+}
+
+.bg-img img{
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 8px;
+
+}
+#id3{
+    grid-column: 3/-1;
+   grid-row: 1/3;
+   height: 100%;
+}
+#id3 .bg-img{
+    height: 100%;
+}
+#id8{
+    grid-column: 3/-1;
+   grid-row: 3/-1;
+   height: 100%;
+}
+#id3 .bg-img{
+    height: 100%;
+}
+.card__deals{
+    height: 100%;
+    position: relative;
+    margin-top: 15px;
+ 
+  
+}
+
+.reviews__card{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+.reviews__card img{
+    width: 70px;
+    height: 16px;
+}
+.reviews__card h3{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0.2rem;
+    color: white;
+}
+.card_offer_btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.card_offer_btn button{
+    background: #FF0000;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    padding: 0.2rem 0.4rem;
+}
+.card_offer_btn button a{
+    color: #ffffff;
+}
+@media screen and (max-width:1000px) {
+    .App_cards_offers{
+        padding: 1rem 5rem;   
+    }
+}
+@media screen and (max-width:850px) {
+    
+}
+@media screen and (max-width:760px) {
+    .message-offer{
+        position: absolute;
+        top: 133px;
+        left: -50px;
+        transform: rotate(90deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #05B1F3;
+        padding: 0.8rem;
+        border-radius: 35px 35px 0px 0px;
+    }
+    .offer-deal-search{
+        flex-direction: column;
+        padding: 0 6rem;
+    }
+    .off-deal-srh-box{
+        width: 100%;
+        gap: 2rem;
+        margin: 1rem;
+    }
+    .App_cards_offers{
+        padding: 1rem 3rem;   
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(4,1fr);
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+    #id3{
+        grid-column: 2/-1;
+        /* grid-row: 1/2; */
+       height: 100%;
+    }
+    #id3 .bg-img{
+        height: 100%;
+    }
+    #id8{
+        grid-column: 2/-1;
+       grid-row: 3/-1;
+       height: 100%;
+    }
+    #id3 .bg-img{
+        height: 100%;
+    }
+    .reviews__card h3{
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 0.2rem;
+        color: white;
+    }
+}
+@media screen and (max-width:500px) {
+    .offer-deal-search{
+        flex-direction: column;
+        padding: 0 0 3rem 6rem;
+    }
+    .App_cards_offers{
+        padding: 1rem 3rem;   
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(5,1fr);
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+    #id3{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+       height: 100%;
+    }
+    #id3 .bg-img{
+        height: 270.53px;
+    }
+    #id8{
+        grid-column: 1/-1;
+       grid-row: 3/4;
+       
+    }
+    #id3 .bg-img{
+        height: 270.53px;
+    }
+    .reviews__card h3{
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 0.2rem;
+        color: white;
+    }
+}

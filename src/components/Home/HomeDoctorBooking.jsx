@@ -10,107 +10,83 @@ const HomeDoctorBooking = () => {
     return (
         <>
             <div className='Home__booking-doctors'>
-                 {/* <ApponitmentForm title="With any Local or International Doctor"/>                 */}
 
-                 <div className="Booking_appointement-form" style={{margin : '5rem 0'}}>
-                    <h2 className='md-heading'>Book An Appointement</h2>
-                    <h3>With any Local or International Doctor</h3>
-                    <form action="" className="home-booking-form">
-                        <div className="form-booking-item-wrap ">
-                            <div className="form--booking">
-                                <div className="form-booking-item">
-                                    <select aria-label="Default select example">
-                                        <option defaultValue>Choose Departement </option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                                <div className="form-booking-item">
-                                    <select aria-label="Default select example">
-                                        <option defaultValue>Choose Doctor</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
 
-                            <div className="">
-                                <div className="form--booking">
-                                    <div className="form-booking-item">
-                                          <img loading="lazy" decoding="async" src={image.vectorMan} alt='man' />
-                                        <input type="text" placeholder='Enter Your Name' />
-                                    </div>
-                                    <div className="form-booking-item">
-                                          <img loading="lazy" decoding="async" src={image.letter} alt="" />
-                                        <input type="text" placeholder='Email Address' />
-                                    </div>
-                                </div>
-                                <div className="form--booking ">
-                                    <div className="form-booking-item ">
-                                          <img loading="lazy" decoding="async" src={image.phone} alt="" />
-                                        <input type="number" placeholder='Phone' />
-                                    </div>
-                                    <div className="form-booking-item form-booking-align">
-                                        <input type="time" placeholder='Select Time' />
-                                    </div>
-                                    <div className="form-booking-item  form-booking-align">
-                                        <input type="date" placeholder='Select Date' />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="form-home-btn app-flex">
-                                <button className='text'>Book An Appointement Now</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+
                 <div className="Home-top-doctors">
-                    <h1 className='md-heading'>Top Rated Doctors</h1>
+                    <h1 className='md-heading'>Featured Hospital Offers</h1>
+                    <div className="offer_second-heading">
+                        <h3 className=''>Best Deals from Hospitals </h3>
+                        <p className='text'>Find Hospital Packages that fit your needs without breaking the bank</p>
+                    </div>
                     <div className="top-doctors-card">
                         {
                             TopDoctors.map((item, index) => (
                                 <Link className='top-doc-card-link' key={index} to="doctorProfile">
-                                <div  className="top-doc-card">
-                                    <div className="top-doc-card-img">
-                                        
-                                        <div className="top-doc-para">
-                                        <p>{item.available}</p>
+                                    <div className="top-doc-card">
+                                        <div className="top-doc-card-img">
 
-                                        </div>
-                                        <div className="top-doc-icons">
-                                        <button>   <img loading="lazy" decoding="async" src={item.heart} alt="heart" /></button>
-                                        <button>   <img loading="lazy" decoding="async" src={item.buy} alt="buy" /></button>
-                                        </div>
-                                    </div>
-                                    <div className="top-doc-card-content">
-                                        <div className="top-doc-heading">
-                                            <h3 className=''>{item.title}</h3>
-                                            <div className="rating">
-                                                <span>   <img loading="lazy" decoding="async" src={item.star} alt="" /></span>
-                                                <span>{item.rating}</span>
+                                            <div className="top-doc-para">
+                                                <p>{item.available}</p>
 
                                             </div>
+                                            <div className="top-doc-icons">
+                                                <button>   <img loading="lazy" decoding="async" src={item.heart} alt="heart" /></button>
+                                                <button>   <img loading="lazy" decoding="async" src={item.buy} alt="buy" /></button>
+                                                <button>   <img loading="lazy" decoding="async" src={item.eyes} alt="buy" /></button>
+                                            </div>
                                         </div>
-                                        <div className="top-doc-contact">
-                                              <img loading="lazy" decoding="async" src={item.location} alt="location" />
-                                            <p>{item.address}</p>
-                                        </div>
-                                        <div className="top-doc-contact">
-                                              <img loading="lazy" decoding="async" src={item.phone} alt="location" />
-                                            <p>{item.number}</p>
-                                        </div>
-                                        <div className="top-doc-contact">
-                                              <img loading="lazy" decoding="async" src={item.at} alt="location" />
-                                            <p>{item.email}</p>
-                                        </div>
+                                        <div className="top-doc-card-content">
+                                            <div className="top-doc-heading">
+                                                <h3 className=''>{item.title}</h3>
+                                                <div className="rating">
+                                                    <span>   <img loading="lazy" decoding="async" src={item.star} alt="" /></span>
+                                                    <span>{item.rating}</span>
 
+                                                </div>
+                                            </div>
+                                            <div className="offer_detail-card">
+                                                <h3>{item.sndTitle}</h3>
+                                                <p>{item.dec}</p>
+                                                <div className="dnld_wrap">
+                                                    <img loading="lazy" decoding="async" src={item.download} alt="" />
+                                                    <p>{item.sale}</p>
+                                                </div>
+                                                <div className="dolrs_wrap">
+                                                    <span>{item.dollar}</span>
+                                                    <span>{item.dollarsnd}</span>
+                                                </div>
+                                                <div className="offer_btn-card">
+                                                    <button>
+                                                        {item.learn}
+                                                        <img loading="lazy" decoding="async" src={item.arrow} alt="" />
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                     </div>
-                                </div>
                                 </Link>
                             ))
                         }
+                    </div>
+                    <div className="offers_video-wrap">
+                        <div className="video-wrap-left">
+                        <div className="line"></div>
+                        <h2 className=''>The Best Reference</h2>
+                        <p>Problems trying to resolve the conflict between
+                            the two major realms of Classical physics:
+                            Newtonian mechanics </p>
+                        <div className="video-wrap-btn">
+                            <button>
+                                Learn More
+                                <img src="./assets/img/arrow.png" alt="" />
+                            </button>
+                        </div>
+                        </div>
+                        <div className="video-wrap-right">
+                            <img src="./assets/img/videoCard.png" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

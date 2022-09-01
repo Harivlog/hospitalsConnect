@@ -8,6 +8,9 @@ import ig from '../assets/icons/ig.svg'
 import inbox from '../assets/icons/inbox.svg'
 import ln from '../assets/icons/ln.svg'
 import location from '../assets/icons/location.svg'
+
+import cancel from '../assets/icons/cancel.svg'
+
 import logo from '../assets/icons/logo.svg'
 import profile from '../assets/icons/profile.svg'
 import search from '../assets/icons/search.svg'
@@ -29,6 +32,7 @@ import inputLocation from '../assets/icons/location.png'
 
 
 export default {
+    cancel,
     inputLocation,
     available,
     connect,
