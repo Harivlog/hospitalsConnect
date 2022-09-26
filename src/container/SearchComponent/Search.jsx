@@ -1,7 +1,7 @@
 import React from 'react'
 import { image ,icons } from '../../constants'
 import './Search.css'
-import { HomeData } from './SearchData'
+import { HomeData , locationData } from './SearchData'
 
 
 const Search = () => {
@@ -18,9 +18,11 @@ const Search = () => {
                           <img loading="lazy" decoding="async" src={icons.inputLocation} alt="location" />
                         <select defaultValue={'Default select example'}>
                             <option value='Default select example' disabled>Select a location </option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            {
+                                locationData.map((location,index)=>(
+                                    <option value={location} key={index}>{location.title}</option>
+                                ))
+                            }
                         </select>
                     </div>
                     <div className="search-btn">

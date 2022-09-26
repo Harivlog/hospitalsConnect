@@ -39,3 +39,34 @@ export const heroData = [
         img : './assets/icons/close.png'
     },
 ]
+export const locationData = [
+    {
+        title : 'Vi'
+    },
+    {
+        title : 'Ikoyi'
+    },{
+        title : 'Ajah'
+    },{
+        title : 'Sangotedo'
+    },{
+        title : 'ikeja'
+    },{
+        title : 'festac'
+    },{
+        title : 'ikorodu '
+    },{
+        title : 'Yaba '
+    },{
+        title : 'Maryland'
+    },{
+        title : 'Magodo '
+    },{
+        title : 'iyana paja'
+    },{
+        title : 'Abuja'
+    },{
+        title : 'Porthacourt'
+    },
+   
+]

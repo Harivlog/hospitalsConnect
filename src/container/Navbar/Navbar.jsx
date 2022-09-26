@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { MENU } from './constants'
 import { icons } from '../../constants'
-
+import {FiLogIn} from 'react-icons/fi'
 
 import './Navbar.css'
 const Navbar = () => {
@@ -103,6 +103,9 @@ const Navbar = () => {
                         : ""
                     }
                   </div>
+                      <button className='app-flex nav-btn '><a href=''>LogIn <FiLogIn/></a>
+            
+            </button>
                 </div>
 
               </div>
@@ -157,6 +160,9 @@ const Navbar = () => {
                 : ""
             }
           </div>
+          <button className='app-flex nav-btn '><a href=''>LogIn <FiLogIn/></a>
+            
+          </button>
         </div>
       </nav>
     </>

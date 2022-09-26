@@ -39,6 +39,7 @@ const BookingAppointment = () => {
                       <p className='text'>{item.content}</p>
                       </div>
                       <div className="booking-facility-btn">
+                        <img src={item.reviews} alt="reviews" />
                         <button><Link to={"evercareHospital"} className='text'>{item.btn}</Link> </button>
                       </div>
                     </div>
