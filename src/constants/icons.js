@@ -29,9 +29,21 @@ import ambulance from '../assets/icons/ambulance.jpg'
 import heart from '../assets/icons/heart.png'
 import topsearch from '../assets/icons/topsearch.svg'
 import inputLocation from '../assets/icons/location.png'
+import person from '../assets/icons/person.png'
+import calender from '../assets/icons/calender.png'
+import phone from '../assets/icons/phone.png'
+import doublePerson from '../assets/icons/doublePerson.png'
+import check from '../assets/icons/check.png'
+import uncheck from '../assets/icons/uncheck.png'
 
 
 export default {
+    check,
+    uncheck,
+    doublePerson,
+    calender,
+    phone,
+    person,
     cancel,
     inputLocation,
     available,
