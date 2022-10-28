@@ -1,7 +1,7 @@
 import React from 'react'
 import "./AppointmentBooking.css"
 import { dayTime, AppointmentService } from './ApptmntData'
-
+import { Link } from 'react-router-dom'
 const AppointmentBooking = () => (
     <>
         <div className="Apponitment__bking">
@@ -52,7 +52,8 @@ const AppointmentBooking = () => (
                             ))
                         }
                         <div className="fee_btn">
-                            <button>Continue</button>
+                        
+                            <Link to="patientsDetail">Continue</Link>
                         </div>
                     </div>
                 </div>

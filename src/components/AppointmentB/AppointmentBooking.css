@@ -153,7 +153,10 @@ align-items: center;
     align-items: center;
     margin: 2rem 0;
 }
-.fee_btn button{
+.fee_btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     outline: none;
     background: #05B1F3;

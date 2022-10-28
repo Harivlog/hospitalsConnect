@@ -33,10 +33,13 @@ import HospitalSignUp from './Views/HospitalSignUp'
 import OfferDetails from './Views/offerDeails'
 import AppointmentBooking from './Views/AppiointBooking'
 import DealsOffer from './Views/dealsOffer'
+import PatientsDetail from './Views/PatientsDetail'
+
+
 
 const App = () => {
 
-  
+
   return (
     <>
       <div className='app'>
@@ -47,22 +50,25 @@ const App = () => {
 
             <Route path='/' >
 
-              <Route  path='/'>
-                  <Route index element={<Home />}/>
-                  <Route path="deals-offer"  >
-                <Route index element={<DealsOffer />} />
-                <Route path="offerDetails" element={<OfferDetails />} />
+              <Route path='/'>
+                <Route index element={<Home />} />
+                <Route path="deals-offer"  >
+                  <Route index element={<DealsOffer />} />
+                  <Route path="offerDetails" element={<OfferDetails />} />
 
-              </Route>
+                </Route>
               </Route>
               <Route path="doctorProfile"  >
                 <Route index element={<DoctorProfile />} />
                 <Route path="hospitalReservation" element={<HospitalReservation />} />
                 <Route path="research" element={<Research />} />
-                <Route path="AppiontmentBooking" element={<AppointmentBooking />} />
-                
+                <Route path="AppiontmentBooking"  >
+                    <Route index element={<AppointmentBooking />} />
+                    <Route path="patientsDetail" element={<PatientsDetail />} />
+                  </Route>
+
               </Route>
-            
+
 
             </Route>
 
@@ -80,7 +86,10 @@ const App = () => {
                   <Route index element={<DoctorProfile />} />
                   <Route path="hospitalReservation" element={<HospitalReservation />} />
                   <Route path="research" element={<Research />} />
-                  <Route path="AppiontmentBooking" element={<AppointmentBooking />} />
+                  <Route path="AppiontmentBooking"  >
+                    <Route index element={<AppointmentBooking />} />
+                    <Route path="patientsDetail" element={<PatientsDetail />} />
+                  </Route>
                 </Route>
 
               </Route>
@@ -94,7 +103,11 @@ const App = () => {
                   <Route index element={<DoctorProfile />} />
                   <Route path="hospitalReservation" element={<HospitalReservation />} />
                   <Route path="research" element={<Research />} />
-                  <Route path="AppiontmentBooking" element={<AppointmentBooking />} />
+                  <Route path="AppiontmentBooking"  >
+                    <Route index element={<AppointmentBooking />} />
+                    <Route path="patientsDetail" element={<PatientsDetail />} />
+                  </Route>
+
                 </Route>
                 <Route path="hospitalReservation" element={<HospitalReservation />} />
 
@@ -135,9 +148,9 @@ const App = () => {
           </Route>
 
         </Routes>
-           {/* <DealsOffers/> */}
-           {/* <OfferDetails/> */}
-           {/* <AppointmentBooking/> */}
+        {/* <DealsOffers/> */}
+        {/* <OfferDetails/> */}
+        {/* <AppointmentBooking/> */}
         {/* <Footer /> */}
 
       </div>
